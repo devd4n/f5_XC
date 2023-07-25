@@ -11,7 +11,7 @@
     curl  https://<<tenant>>.console.ves.volterra.io/<<path>> -H "Content-type:application/json" -X POST -d @<<jsonfile.json>>
     Paths:
         /api/waf/namespaces/{namespace}/app_firewalls
-        /api/config/namespaces/<<namespace>>/origin-pools
+        /api/config/namespaces/<<namespace>>/origin_pools
         /api/config/namespaces/<<namespace>>/healthchecks
 
     BODY: {metadata:, spec:}
