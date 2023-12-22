@@ -1,0 +1,21 @@
+
+Security Dashboard > <<instanz>> > Security Analytics > Events
+
+
+Regularly:
+-----------
+- Security Dashboard  > <<instanz>> > Security Analytics > Incidents
+
+
+
+
+CSV Export
+------------
+
+filter:
+- bot_info.classification = suspicious
+- calculated action = block
+
+view:
+- bot_info.type
+
